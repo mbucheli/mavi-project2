@@ -21,6 +21,10 @@
                 <%= recipe.recipeTitle; %><br />
                 <img src="<%= recipe.imageLink; %>">
             </a>
+            <form action="/recipes/<%= recipe._id %>?_method=DELETE" method="POST">
+                <input id="delete" type="submit" value="Delete"/>
+            </form>
+            <button id="edit"><a href="/recipes/<%=recipe._id%>/edit">Edit</a></button>
             </td>
         <% }) %>
         </tr>

@@ -25,8 +25,20 @@ recipeRouter.get("/new", (req, res) => {
 
 
 //DELETE
+recipeRouter.delete("/:id", (req, res) => {
+    Recipe.findByIdAndDelete(req.params.id, (err, data) => {
+        res.redirect("/recipes");
+    });
+});
 
 //UPDATE
+recipeRouter.put("/:id", (req, res) => {
+    Recipe.findByIdAndUpdate(req.params.id, req.body, {
+        new: true
+    }, (error, updatedRecipe) => {
+        res.redirect(`/recipes/${req.params.id}`);
+    });
+});
 
 //CREATE
 recipeRouter.post("/", (req, res) => {
@@ -36,12 +48,19 @@ recipeRouter.post("/", (req, res) => {
 });
 
 //EDIT
+recipeRouter.get("/:id/edit", (req, res) => {
+    Recipe.findById(req.params.id, (err, addedRecipe) => {
+        res.render("edit.ejs", {
+            recipe: addedRecipe
+        });
+    });
+});
 
 //SHOW
 recipeRouter.get("/:id", (req, res) => {
-    Recipe.findById(req.params.id, (err, foundRecipe) => {
+    Recipe.findById(req.params.id, (err, addedRecipe) => {
         res.render("show.ejs", {
-            recipe: foundRecipe
+            recipe: addedRecipe
         });
     });
 });
