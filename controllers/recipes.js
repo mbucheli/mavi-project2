@@ -1,4 +1,5 @@
 //Dependencies
+const { application } = require("express");
 const express = require("express");
 const recipeRouter = express.Router();
 const Recipe = require("../models/recipe.js");
@@ -37,3 +38,10 @@ recipeRouter.post("/", (req, res) => {
 //EDIT
 
 //SHOW
+recipeRouter.get("/:id", (req, res) => {
+    Recipe.findById(req.params.id, (err, foundRecipe) => {
+        res.render("show.ejs", {
+            recipe: foundRecipe
+        });
+    });
+});
