@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+  #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  body {
+    background: url("https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg");
+    
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  #index {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #addLink {
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #addBtn {
+    border-radius: 10px;
+  }
+
+  .recipeHome{
+      padding-top: 20px;
+  }
+
+  #indexImg {
+      max-width: 250px;
+      max-height: 250px;
+      min-width: 150px;
+      min-height: 150px;
+      border-radius: 10px;
+}
+
+  ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+
+  li {
+      list-style-type: none;
+      margin-left: -40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+    }
+
+}
