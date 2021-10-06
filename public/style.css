@@ -1,6 +1,6 @@
 @media only screen and (max-width: 479px) {
   /* Index Page */
-    #indexImg {
+  #Img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,6 +56,10 @@
   }
 
   #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     max-width: 200px;
     max-height: 200px;
     min-width: 100px;
@@ -122,19 +126,19 @@
   }
 
   #showImg {
-      border-radius: 10px;
-      border: 3px dashed rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   h3 {
-      font-size: 22px;
-      text-decoration: underline;
-      font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .details {
     color: whitesmoke;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 18px;
   }
 
@@ -176,11 +180,122 @@
     margin-top: 10px;
   }
   /*Show Page*/
+  /*New Page*/
+  #newImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #newBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #newBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #newForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divTitle {
+    padding-top: 10px;
+  }
+
+  #newTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divImgLink {
+    padding-top: 20px;
+  }
+
+  #newImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divDescription {
+    padding-top: 20px;
+  }
+
+  #newDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divPrepTime {
+    padding-top: 20px;
+  }
+
+  #newPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divIngredients {
+    padding-top: 20px;
+  }
+
+  #newIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divInstructions {
+    padding-top: 20px;
+  }
+
+  #newInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #addRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   /*Index Page*/
-    #indexImg {
+  #indexImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -203,8 +318,8 @@
     border-radius: 10px;
     border-style: dashed;
     padding-bottom: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   #addLink {
@@ -241,6 +356,7 @@
     min-width: 200px;
     min-height: 200px;
     border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   ul {
@@ -300,19 +416,19 @@
   }
 
   #showImg {
-      border-radius: 10px;
-      border: 3px dashed rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   h3 {
-      font-size: 22px;
-      text-decoration: underline;
-      font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .details {
     color: whitesmoke;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 18px;
   }
 
@@ -357,8 +473,8 @@
 }
 
 @media only screen and (min-width: 661px) {
-/*Index Page*/
-    #indexImg {
+  /*Index Page*/
+  #indexImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -381,8 +497,8 @@
     border-radius: 10px;
     border-style: dashed;
     padding-bottom: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
   #addLink {
@@ -419,6 +535,7 @@
     min-width: 200px;
     min-height: 200px;
     border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   ul {
@@ -478,19 +595,19 @@
   }
 
   #showImg {
-      border-radius: 10px;
-      border: 3px dashed rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   h3 {
-      font-size: 22px;
-      text-decoration: underline;
-      font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .details {
     color: whitesmoke;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 18px;
   }
 
@@ -536,7 +653,7 @@
 
 @media only screen and (min-width: 1011px) {
   /*Index Page*/
-    #indexImg {
+  #indexImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -559,8 +676,8 @@
     border-radius: 10px;
     border-style: dashed;
     padding-bottom: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
 
   #addLink {
@@ -597,6 +714,7 @@
     min-width: 200px;
     min-height: 200px;
     border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   ul {
@@ -656,19 +774,19 @@
   }
 
   #showImg {
-      border-radius: 10px;
-      border: 3px dashed rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
   }
 
   h3 {
-      font-size: 22px;
-      text-decoration: underline;
-      font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .details {
     color: whitesmoke;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 18px;
   }
 
