@@ -1,5 +1,6 @@
-@media only screen and (max-width: 600px) {
-  #indexImg {
+@media only screen and (max-width: 479px) {
+  /* Index Page */
+    #indexImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -8,7 +9,6 @@
 
   body {
     background: url("https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg");
-    
   }
 
   .home {
@@ -36,19 +36,33 @@
 
   #addBtn {
     border-radius: 10px;
+    background-color: pink;
   }
 
-  .recipeHome{
-      padding-top: 20px;
+  .recipeHome {
+    padding-top: 20px;
+    background-color: rgba(38, 30, 71, 0.7);
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: dashed;
+  }
+
+  #indexTitle {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
   }
 
   #indexImg {
-      max-width: 250px;
-      max-height: 250px;
-      min-width: 150px;
-      min-height: 150px;
-      border-radius: 10px;
-}
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    border: 3px dashed rgba(38, 30, 71, 1);
+  }
 
   ul {
     display: grid;
@@ -57,11 +71,643 @@
   }
 
   li {
-      list-style-type: none;
-      margin-left: -40px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-    }
+    list-style-type: none;
+    margin-left: -45px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
 
+  #editLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editBtn {
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  /*Index Page*/
+
+  /*Show Page*/
+  #backLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #backBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  .all {
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #showImg {
+      border-radius: 10px;
+      border: 3px dashed rgba(38, 30, 71, 1);
+  }
+
+  h3 {
+      font-size: 22px;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  .details {
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+  }
+
+  .description {
+    margin-top: 40px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .prepTime {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .instructions {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  #delete {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  /*Show Page*/
+}
+
+@media only screen and (min-width: 480px) {
+  /*Index Page*/
+    #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  body {
+    background: url("https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg");
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  #index {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #addLink {
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #addBtn {
+    border-radius: 10px;
+    background-color: pink;
+  }
+
+  .recipeHome {
+    padding-top: 20px;
+    background-color: rgba(38, 30, 71, 0.7);
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: dashed;
+  }
+
+  #indexTitle {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 19px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  #indexImg {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #editLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editBtn {
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  /*Index Page*/
+  /*Show Page*/
+  #backLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #backBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  .all {
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #showImg {
+      border-radius: 10px;
+      border: 3px dashed rgba(38, 30, 71, 1);
+  }
+
+  h3 {
+      font-size: 22px;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  .details {
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+  }
+
+  .description {
+    margin-top: 40px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .prepTime {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .instructions {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  #delete {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  /*Show Page*/
+}
+
+@media only screen and (min-width: 661px) {
+/*Index Page*/
+    #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  body {
+    background: url("https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg");
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  #index {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #addLink {
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #addBtn {
+    border-radius: 10px;
+    background-color: pink;
+  }
+
+  .recipeHome {
+    padding-top: 20px;
+    background-color: rgba(38, 30, 71, 0.7);
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: dashed;
+  }
+
+  #indexTitle {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 19px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  #indexImg {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #editLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editBtn {
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  /*Index Page*/
+  /*Show Page*/
+  #backLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #backBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  .all {
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  #showImg {
+      border-radius: 10px;
+      border: 3px dashed rgba(38, 30, 71, 1);
+  }
+
+  h3 {
+      font-size: 22px;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  .details {
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+  }
+
+  .description {
+    margin-top: 40px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .prepTime {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .instructions {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  #delete {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  /*Show Page*/
+}
+
+@media only screen and (min-width: 1011px) {
+  /*Index Page*/
+    #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  body {
+    background: url("https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg");
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  #index {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #addLink {
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #addBtn {
+    border-radius: 10px;
+    background-color: pink;
+  }
+
+  .recipeHome {
+    padding-top: 20px;
+    background-color: rgba(38, 30, 71, 0.7);
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: dashed;
+  }
+
+  #indexTitle {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  #indexImg {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -45px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #editLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editBtn {
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  /*Index Page*/
+  /*Show Page*/
+  #backLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #backBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  .all {
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    background-color: rgba(204, 151, 142, 1);
+    color: rgba(38, 30, 71, 1);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  #showImg {
+      border-radius: 10px;
+      border: 3px dashed rgba(38, 30, 71, 1);
+  }
+
+  h3 {
+      font-size: 22px;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+  .details {
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+  }
+
+  .description {
+    margin-top: 40px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .prepTime {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .ingredients {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  .instructions {
+    margin-top: 15px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  #delete {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  /*Show Page*/
 }
