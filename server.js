@@ -1,5 +1,6 @@
 require("dotenv").config()
 
+const { application } = require("express");
 // Dependencies
 const express = require("express");
 const methodOverride = require("method-override");
@@ -25,6 +26,10 @@ db.on('disconnected', () => console.log('mongodb disconnected'));
 //Routes // Controllers
 const recipeController = require("./controllers/recipes.js");
 app.use("/recipes", recipeController);
+
+app.get("/", (req, res) => {
+    res.redirect("/recipes");
+});
 
 // Listener
 const PORT = process.env.PORT;
