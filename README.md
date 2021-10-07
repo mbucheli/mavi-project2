@@ -24,6 +24,6 @@ Deploy Recipe Box [link](https://mavi-project-2.herokuapp.com/recipes)
 * Users should be able to see original text of description, ingredients, and instructions.
 
 ## Images Used
-![Background Image](https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg)
-![Index Page Image](https://c.tenor.com/6a_4Q6DHoWcAAAAi/chef-cooking.gif)
-![New/Edit Page Image](https://c.tenor.com/jSooB458wqUAAAAi/write-noted.gif)
+* Background Image: https://thumbs.dreamstime.com/b/cute-kitchen-thin-line-icons-white-background-restaurants-cooking-room-wallpaper-outline-stroke-vector-to-gift-warp-196093933.jpg
+* Index Page Image: https://c.tenor.com/6a_4Q6DHoWcAAAAi/chef-cooking.gif
+* New/Edit Page Image: https://c.tenor.com/jSooB458wqUAAAAi/write-noted.gif
