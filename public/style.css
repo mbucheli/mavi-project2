@@ -291,11 +291,130 @@
     background-color: pink;
     border-radius: 10px;
   }
+  /*New Page*/
+  /*Edit Page*/
+  #headEditRecipe {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+  #editImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #editBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #editBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divEditTitle {
+    padding-top: 10px;
+  }
+
+  #editTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditImg {
+    padding-top: 20px;
+  }
+
+  #editImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditDescription {
+    padding-top: 20px;
+  }
+
+  #editDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditPrepTime {
+    padding-top: 20px;
+  }
+
+  #editPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditIngredients {
+    padding-top: 20px;
+  }
+
+  #editIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditInstructions {
+    padding-top: 20px;
+  }
+
+  #editInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #editRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*Edit Page*/
 }
 
 @media only screen and (min-width: 480px) {
   /*Index Page*/
-  #indexImg {
+  #Img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -351,6 +470,10 @@
   }
 
   #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
     max-width: 300px;
     max-height: 300px;
     min-width: 200px;
@@ -470,15 +593,248 @@
     margin-top: 10px;
   }
   /*Show Page*/
+  /*New Page*/
+  #newImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  #newBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #newBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #newForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divTitle {
+    padding-top: 10px;
+  }
+
+  #newTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divImgLink {
+    padding-top: 20px;
+  }
+
+  #newImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divDescription {
+    padding-top: 20px;
+  }
+
+  #newDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divPrepTime {
+    padding-top: 20px;
+  }
+
+  #newPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divIngredients {
+    padding-top: 20px;
+  }
+
+  #newIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divInstructions {
+    padding-top: 20px;
+  }
+
+  #newInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #addRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*New Page*/
+  /*Edit Page*/
+  #headEditRecipe {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+  #editImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 250px;
+  }
+
+  #editBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #editBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divEditTitle {
+    padding-top: 10px;
+  }
+
+  #editTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditImg {
+    padding-top: 20px;
+  }
+
+  #editImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditDescription {
+    padding-top: 20px;
+  }
+
+  #editDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditPrepTime {
+    padding-top: 20px;
+  }
+
+  #editPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditIngredients {
+    padding-top: 20px;
+  }
+
+  #editIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditInstructions {
+    padding-top: 20px;
+  }
+
+  #editInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #editRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*Edit Page*/
 }
 
 @media only screen and (min-width: 661px) {
   /*Index Page*/
-  #indexImg {
+  #Img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 55%;
+    max-width: 300px;
   }
 
   body {
@@ -530,6 +886,10 @@
   }
 
   #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
     max-width: 300px;
     max-height: 300px;
     min-width: 200px;
@@ -649,15 +1009,248 @@
     margin-top: 10px;
   }
   /*Show Page*/
+  /*New Page*/
+  #newImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  #newBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #newBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #newForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divTitle {
+    padding-top: 10px;
+  }
+
+  #newTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divImgLink {
+    padding-top: 20px;
+  }
+
+  #newImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divDescription {
+    padding-top: 20px;
+  }
+
+  #newDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divPrepTime {
+    padding-top: 20px;
+  }
+
+  #newPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divIngredients {
+    padding-top: 20px;
+  }
+
+  #newIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divInstructions {
+    padding-top: 20px;
+  }
+
+  #newInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #addRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*New Page*/
+   /*Edit Page*/
+   #headEditRecipe {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+  #editImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 250px;
+  }
+
+  #editBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #editBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divEditTitle {
+    padding-top: 10px;
+  }
+
+  #editTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditImg {
+    padding-top: 20px;
+  }
+
+  #editImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditDescription {
+    padding-top: 20px;
+  }
+
+  #editDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditPrepTime {
+    padding-top: 20px;
+  }
+
+  #editPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditIngredients {
+    padding-top: 20px;
+  }
+
+  #editIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditInstructions {
+    padding-top: 20px;
+  }
+
+  #editInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #editRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*Edit Page*/
 }
 
 @media only screen and (min-width: 1011px) {
   /*Index Page*/
-  #indexImg {
+  #Img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 55%;
+    max-width: 350px;
   }
 
   body {
@@ -709,6 +1302,10 @@
   }
 
   #indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
     max-width: 300px;
     max-height: 300px;
     min-width: 200px;
@@ -828,4 +1425,236 @@
     margin-top: 10px;
   }
   /*Show Page*/
+  /*New Page*/
+  #newImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  #newBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #newBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #newForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divTitle {
+    padding-top: 10px;
+  }
+
+  #newTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divImgLink {
+    padding-top: 20px;
+  }
+
+  #newImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divDescription {
+    padding-top: 20px;
+  }
+
+  #newDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divPrepTime {
+    padding-top: 20px;
+  }
+
+  #newPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divIngredients {
+    padding-top: 20px;
+  }
+
+  #newIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divInstructions {
+    padding-top: 20px;
+  }
+
+  #newInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #addRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*New Page*/
+   /*Edit Page*/
+   #headEditRecipe {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+  #editImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  #editBackBtn {
+    background-color: pink;
+    border-radius: 10px;
+  }
+
+  #editBackLink {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(38, 30, 71, 1);
+  }
+
+  #editForm {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(38, 30, 71, 0.8);
+    border-radius: 10px;
+    border: 5px dashed rgba(38, 30, 71, 1);
+  }
+
+  label {
+    color: whitesmoke;
+    font-family: "Patrick Hand", cursive;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .divEditTitle {
+    padding-top: 10px;
+  }
+
+  #editTitle {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditImg {
+    padding-top: 20px;
+  }
+
+  #editImgLink {
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditDescription {
+    padding-top: 20px;
+  }
+
+  #editDescription {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditPrepTime {
+    padding-top: 20px;
+  }
+
+  #editPrepTime {
+    width: 35%;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditIngredients {
+    padding-top: 20px;
+  }
+
+  #editIngredients {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  .divEditInstructions {
+    padding-top: 20px;
+  }
+
+  #editInstructions {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 56, 100, 1);
+  }
+
+  #editRecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38, 30, 71, 1);
+    background-color: pink;
+    border-radius: 10px;
+  }
+  /*Edit Page*/
 }
